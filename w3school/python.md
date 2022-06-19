@@ -25,21 +25,23 @@
 - Output Variables 변수 출력
 - Global Variables
 ```
-. x = "awesome"
-def myfunc():
-  x = "fantastic"
+  x = "awesome"
+  def myfunc():
+    x = "fantastic"
+    print("Python is " + x)
+  myfunc()
   print("Python is " + x)
-myfunc()
-print("Python is " + x)
 ```
 - global keyword
 ```
-x = "awesome"
-def myfunc():
-  global x
-  x = "fantastic"
-myfunc()
-print("Python is " + x)
+  x = "awesome"
+  def myfunc():
+    global x
+    x = "fantastic"
+  myfunc()
+  print("Python is " + x)
 ```
 - Random Number
-print(random.randrange(1, 10))
+```
+  print(random.randrange(1, 10))
+```
