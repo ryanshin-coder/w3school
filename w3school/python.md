@@ -17,31 +17,31 @@
 - Python Variables
   * Variables do not need to be declared with any particular type, and can even change type after they have been set.
   * If you want to specify the data type of a variable, this can be done with casting.
-  * - Unpack a Collection
+  * Unpack a Collection
   ```
   fruits = ["apple", "banana", "cherry"]
   x, y, z = fruits
   ```
 - Output Variables 변수 출력
 - Global Variables
-```
+  ```
   x = "awesome"
   def myfunc():
     x = "fantastic"
     print("Python is " + x)
   myfunc()
   print("Python is " + x)
-```
+  ```
 - global keyword
-```
+  ```
   x = "awesome"
   def myfunc():
     global x
     x = "fantastic"
   myfunc()
   print("Python is " + x)
-```
+  ```
 - Random Number
-```
+  ```
   print(random.randrange(1, 10))
-```
+  ```
