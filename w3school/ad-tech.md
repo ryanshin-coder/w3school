@@ -6,3 +6,11 @@
 * ecosystem: all the plants, animals, and people living in an area considered together with their environment as a system of relationships (생태계(生態系)) 
 
 https://www.toolbox.com/marketing/programmatic-advertising/articles/ad-network-vs-ad-exchange-key-differences-and-similarities/
+
+
+### DSP (Demand Side Platform)
+* Demand-side platforms (DSPs) are one of the main tools used by advertisers to run online media campaigns.
+
+
+
+https://clearcode.cc/blog/anatomy-of-demand-side-platform/
