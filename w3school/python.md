@@ -14,14 +14,14 @@
   *  A comment does not have to be text that explains the code, it can also be used to prevent Python from executing code
   * Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it
   * As long as the string is not assigned to a variable, Python will read the code, but then ignore it, and you have made a multiline comment.
-= Python Variables
+- Python Variables
   * Variables do not need to be declared with any particular type, and can even change type after they have been set.
   * If you want to specify the data type of a variable, this can be done with casting.
-- Unpack a Collection
-```
-fruits = ["apple", "banana", "cherry"]
-x, y, z = fruits
-```
+  * - Unpack a Collection
+  ```
+  fruits = ["apple", "banana", "cherry"]
+  x, y, z = fruits
+  ```
 - Output Variables 변수 출력
 - Global Variables
 . x = "awesome"
